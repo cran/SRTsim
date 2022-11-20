@@ -1,8 +1,8 @@
 Package: SRTsim
 Type: Package
 Title: Simulator for Spatially Resolved Transcriptomics
-Version: 0.99.2
-Date: 2022-06-13
+Version: 0.99.3
+Date: 2022-11-20
 Authors@R: c(
   person(given = "Jiaqiang", family = "Zhu", email = "jiaqiang@umich.edu", role = c("aut","ctb","cre"), comment = c(ORCID = "0000-0002-1455-0041")),
   person(given = "Lulu", family = "Shang", email = "shanglu@umich.edu", role = "aut", comment = c(ORCID = "0000-0002-2480-3065")),
@@ -26,9 +26,9 @@ Collate: 'SRTaffine.R' 'SRTcount.R' 'SRTfit.R' 'SRTmodels.R'
         'globals.R' 'reGenCountshiny.R' 'runapp.R' 'server.R'
         'shiny2srt.R' 'sidebar.R' 'simSRTLocs.R' 'subsetSRT.R' 'ui.R'
         'utilies_func.R' 'visualize_gene.R' 'visualize_metrics.R'
-Packaged: 2022-06-23 19:13:10 UTC; jiaqiangzhu
+Packaged: 2022-11-20 22:36:44 UTC; jiaqiangzhu
 Author: Jiaqiang Zhu [aut, ctb, cre] (<https://orcid.org/0000-0002-1455-0041>),
   Lulu Shang [aut] (<https://orcid.org/0000-0002-2480-3065>),
   Xiang Zhou [aut] (<https://orcid.org/0000-0002-4331-7599>)
 Repository: CRAN
-Date/Publication: 2022-06-24 08:10:02 UTC
+Date/Publication: 2022-11-20 23:00:02 UTC

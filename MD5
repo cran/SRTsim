@@ -1,4 +1,4 @@
-f8f73a4fbff1a59ffa3cfbf87fc4f55c *DESCRIPTION
+97da88baf87b0abc97b6557296a10075 *DESCRIPTION
 83dff52b6429840b06dc6eec33092acb *NAMESPACE
 c8c2bfe3be52ec0343e2717441afa75b *NEWS
 a146179bbdb21b55b724172e0c62f12c *R/SRTaffine.R
@@ -26,9 +26,9 @@ f894a0dc655b4f839d391e5ffea22497 *build/vignette.rds
 7814fb8b438a0baf6b9b69a469d18ef5 *data/exampleLIBD.rda
 998cb91ea8b34aa2cbaeae47238764ed *data/toyData.rda
 962c2a8da4f2f6b32b91df8a67abfd84 *data/toyShiny.rda
-ff90e6b0fcbc21c4f8c98ff0d03fa42d *inst/doc/SRTsim.R
-b9cc2c3b71910f34fc352f1e257f8145 *inst/doc/SRTsim.Rmd
-73bb608bcd60db44fe59a85606aa2f8e *inst/doc/SRTsim.html
+2259371fc2990951eef9ede1362eea23 *inst/doc/SRTsim.R
+e0f27c9a005697f1c5c1c1d3e66285cc *inst/doc/SRTsim.Rmd
+0a5408c334bb9d32d43aa7c942cfb07e *inst/doc/SRTsim.html
 4e21c3067c3d5a122d9cac050d390900 *man/EstParam.Rd
 60930f89034dbcf62fd165521c60c446 *man/SRTsim_shiny.Rd
 78da2a824b4b8bc3836ceb3cd93c8525 *man/Shiny2SRT.Rd
@@ -57,4 +57,4 @@ bd8edd83e2fa25317f26df6521e20c5b *man/subsetSRT.Rd
 6f3192e98ffcd42f405edc83dd17de40 *man/toyShiny.Rd
 54dd5f02c1b1bf0cb02057ab82d04aad *man/visualize_gene.Rd
 291a0ee56bb550e30ea8352c2a9743a6 *man/visualize_metrics.Rd
-b9cc2c3b71910f34fc352f1e257f8145 *vignettes/SRTsim.Rmd
+e0f27c9a005697f1c5c1c1d3e66285cc *vignettes/SRTsim.Rmd

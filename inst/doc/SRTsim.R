@@ -17,7 +17,6 @@ library("RefManageR")
 ## Write bibliography information
 bib <- c(
     R = citation(),
-    BiocFileCache = citation("BiocFileCache")[1],
     BiocStyle = citation("BiocStyle")[1],
     knitr = citation("knitr")[3],
     Matrix = citation("Matrix")[1],
