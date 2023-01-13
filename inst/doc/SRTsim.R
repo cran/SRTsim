@@ -18,7 +18,17 @@ library("RefManageR")
 bib <- c(
     R = citation(),
     BiocStyle = citation("BiocStyle")[1],
-    knitr = citation("knitr")[3],
+    knitr =bibentry(
+     bibtype = "InCollection",
+     booktitle = "Implementing Reproducible Computational Research",
+     title = "knitr: A Comprehensive Tool for Reproducible Research in R",
+     author = as.person("Yihui Xie [aut]"),
+     editor = as.person("Victoria Stodden, Friedrich Leisch, Roger D. Peng"),
+     year = "2014",
+     publisher = "Chapman and Hall/CRC",
+     isbn = "978-1466561595",
+     url = "https://www.routledge.com/Implementing-Reproducible-Research/Stodden-Leisch-Peng/p/book/9781466561595"
+   ),
     Matrix = citation("Matrix")[1],
     RefManageR = citation("RefManageR")[1],
     rmarkdown = citation("rmarkdown")[1],
