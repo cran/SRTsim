@@ -2,6 +2,7 @@
 #' @import shinydashboard
 #' @importFrom plotly plotlyOutput
 #' @importFrom shinyBS bsModal
+#' @importFrom DT DTOutput
 #' @importFrom dashboardthemes shinyDashboardThemeDIY
 body <- shinydashboard::dashboardBody(
     tags$head(
@@ -224,7 +225,8 @@ dashboardthemes::shinyDashboardThemeDIY(
             ), # end of the fluidRow 
 
             bsModal("modalExample", "Location Data Table", "loc_pop", size = "large",
-                dataTableOutput("distTable")
+                 DT::DTOutput("countTable")
+                    # dataTableOutput("countTable")
                 # downloadButton("downloadPopLoc", "Download Location File")
             ),
             ## for now, nothing would come 
@@ -306,7 +308,8 @@ dashboardthemes::shinyDashboardThemeDIY(
 
                 bsModal("modalCount", "Count Data Table", "count_pop", 
                     size = "large",
-                    dataTableOutput("countTable")
+                    DT::DTOutput("countTable")
+                    # dataTableOutput("countTable")
                     # downloadButton("downloadPopCount", "Download CountData File")
                 )
             )
